@@ -1,0 +1,58 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 12h11m20s 04/06/2018
+End of Computation: 12h11m21s 04/06/2018
+
+Subgraph Size: 4
+Graph File: "Networks/hep-th.net"
+Directed: NO
+Nr Nodes: 7610
+Nr Edges: 15751
+
+Method: ESU on original network
+Different Types of Subgraphs Found [Original Network]: 6
+Subgraph Occurrences Found [Original Network]: 1011658
+Time for computing census on original network: 0.967962s
+Average time for census on random network: 0.000000s
+
+Number of random networks: 0
+Random seed: 1528107080
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+0110
+1001
+1000
+0100      508574 |     0.00 |       0.00 +/-       0.00  --- 3 									         path
+
+0111
+1000
+1000
+1000      301847 |     0.00 |       0.00 +/-       0.00  --- 3  									         star
+
+0111
+1010
+1100
+1000      167420 |     0.00 |       0.00 +/-       0.00  --- 		     						tailed triangle 
+
+0111
+1011
+1101
+1110       18976 |     0.00 |       0.00 +/-       0.00  --- 4          										  clique
+
+0111
+1011
+1100
+1100       13255 |     0.00 |       0.00 +/-       0.00  --- 									chordal cycle
+
+0110
+1001
+1001
+0110        1586 |     0.00 |       0.00 +/-       0.00  --- 4 										   cycle
+
